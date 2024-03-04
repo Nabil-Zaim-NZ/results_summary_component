@@ -88,6 +88,7 @@ body {
     border-radius: 5px;
     padding: 5px;
     font-size: small;
+    cursor: default;
 
 }
 
@@ -159,6 +160,7 @@ img {
     border-radius: 20px;
     text-align: center;
     font-size: xx-small;
+    cursor: pointer;
 
 }
 

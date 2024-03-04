@@ -9,9 +9,14 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
+    align-items: center;
     position: relative;
     margin: 50px;
     top: 50%;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
 }
 
 .result_average_container {
@@ -70,6 +75,10 @@ body {
     align-items: start;
     box-shadow: 15px 15px 70px -21px rgba(0, 0, 0, 0.1);
     border-radius: 0 20px 20px 0;
+
+    @media (max-width: 700px) {
+        box-shadow: unset;
+    }
 }
 
 .title_summary {
@@ -82,6 +91,8 @@ body {
     gap: 20px;
     list-style-type: none;
     width: 90%;
+
+    @media (max-width: 700px) {}
 }
 
 .note_child {

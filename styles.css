@@ -8,6 +8,10 @@ body {
 .card_container {
     display: flex;
     gap: 20px;
+    justify-content: center;
+    position: relative;
+    margin: 50px;
+    top: 50%;
 }
 
 .result_average_container {
@@ -16,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-self: start;
     padding: 20px;
     color: hsl(0, 0%, 100%);
     width: 200px;
@@ -51,6 +56,7 @@ body {
 .info_message {
     color: hsl(241, 100%, 89%);
     text-align: center;
+    font-size: small;
 }
 
 
@@ -59,9 +65,10 @@ body {
     width: 200px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     align-items: start;
-    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 15px 15px 70px -21px rgba(0, 0, 0, 0.1);
     border-radius: 0 20px 20px 0;
 }
 
